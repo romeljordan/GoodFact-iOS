@@ -18,7 +18,7 @@ final class DailyScreenViewModel: ObservableObject {
     public init(factGeneratorUseCase: FactGeneratorUseCase) {
         self.factGeneratorUseCase = factGeneratorUseCase
         
-//        loadFact()
+        loadFact()
     }
     
     private func loadFact() {
